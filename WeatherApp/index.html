@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="data:image/svg+xml,
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23FFA726'><path d='M12 4V1l-1 1-1-1v3c-3.312 0-6 2.688-6 6s2.688 6 6 6c1.578 0 3.047-.609 4.125-1.719l1.438 1.438C16.234 18.609 14.766 19 13 19c-4.414 0-8-3.586-8-8s3.586-8 8-8zm0 2c-3.312 0-6 2.688-6 6s2.688 6 6 6c1.547 0 2.938-.609 4-1.594C16.063 16.391 14.531 17 13 17c-3.309 0-6-2.691-6-6s2.691-6 6-6zm0 3v1h1v2h-1v1h-2v-1H9v-2h1V9h2z'></path></svg>
+">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Previsão Do Tempo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-info">
+            <div class="pic-gradient"></div>
+            <div class="today-info">
+                <h2>--</h2>
+                <span>--</span>
+                <div>
+                    <i class='bx bx-current-location'></i>
+                    <span>--</span>
+                </div>
+            </div>
+            <div class="today-weather">
+                <i class='bx bx-sun'></i>
+                <h1 class="weather-temp">
+                    °C
+                </h1>
+                <h3>--</h3>
+            </div>
+        </div>
+
+        <div class="right-info">
+            <div class="day-info">
+                <div>
+                    <span class="title">PRECIPITAÇÃO</span>
+                    <span class="value"> %</span>
+                </div>
+                <div>
+                    <span class="title">UMIDADE</span>
+                    <span class="value"> %</span>
+                </div>
+                <div>
+                    <span class="title">VELOCIDADE DO VENTO</span>
+                    <span class="value"> km/h</span>
+                </div>
+            </div>
+
+            <ul class="days-list">
+                <li>
+                    <i class='bx bx-cloud'></i>
+                    <span>Sáb</span>
+                    <span class="day-temp">--°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-sun'></i>
+                    <span>Dom</span>
+                    <span class="day-temp">--°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-rain'></i>
+                    <span>Seg</span>
+                    <span class="day-temp">--°C</span>
+                </li>
+                <li>
+                    <i class='bx bx-cloud-drizzle'></i>
+                    <span>Ter</span>
+                    <span class="day-temp">--°C</span>
+                </li>
+            </ul>
+
+            <div class="btn-container">
+                <input type="text" class="loc-input" placeholder="Digite a localização">
+                <button class="loc-button">Buscar Localização</button>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
